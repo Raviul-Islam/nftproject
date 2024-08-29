@@ -1,0 +1,10 @@
+a=10,b=20,c=30,d=40
+
+if a>b and a>c and a>d:
+    print(a,'is greatest')
+elif b>a and b>c and b>d:
+    print(b,'is greatest')
+elif c>a and c>d and c>d:
+    print(c,'is greatest')
+else:
+    print(d,'is greatest')
