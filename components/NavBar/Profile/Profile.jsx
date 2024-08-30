@@ -20,8 +20,8 @@ const Profile = () => {
                     height={50}
                     className={Style.profile_account_img}
                 />
-                
-                <div className={style.profile_account_info}>
+
+                <div className={Style.profile_account_info}>
                     <p>Khubchand</p>
                     <small>X038499382920203...</small>
                 </div>
@@ -30,45 +30,44 @@ const Profile = () => {
             <div className={Style.profile_menu}>
                 <div className={Style.profile_menu_one}>
                     <div className={Style.profile_menu_one_item}>
-                    <FaUserAlt/>
-                    <p>
-                        <Link href={{pathname:"/myprofile"}}>My profile</Link>
-                    </p>
+                        <FaUserAlt />
+                        <p>
+                            <Link href={{ pathname: "/myprofile" }}>My profile</Link>
+                        </p>
                     </div>
                     <div className={Style.profile_menu_one_item}>
-                    <FaRegImage/>
-                    <p>
-                        <Link href={{pathname:"/my-items"}}>My Items</Link>
-                    </p>
+                        <FaRegImage />
+                        <p>
+                            <Link href={{ pathname: "/my-items" }}>My Items</Link>
+                        </p>
                     </div>
-                        <div className={Style.profile_menu_one_item}>
-                    <FaUserEdit/>
-                    <p>
-                        <Link href={{pathname:'/edit-profile'}}>Edit profile</Link>
-                    </p>
+                    <div className={Style.profile_menu_one_item}>
+                        <FaUserEdit />
+                        <p>
+                            <Link href={{ pathname: '/edit-profile' }}>Edit profile</Link>
+                        </p>
                     </div>
                 </div>
-                
+
                 <div className={Style.profile_menu_two}>
                     <div className={Style.profile_menu_one_item}>
                         <MdHelpCenter />
                         <p>
-                            <Link href={{pathname: "/help"}}>Help</Link>
+                            <Link href={{ pathname: "/help" }}>Help</Link>
                         </p>
                     </div>
                     <div className={Style.profile_menu_two}>
-                    <div className={Style.profile_menu_one_item}>
-                        <TbDownload/>
-                        <p>
-                            <Link href={{pathname: "/disconnect"}}>Disconnect</Link>
-                        </p>
+                        <div className={Style.profile_menu_one_item}>
+                            <TbDownload />
+                            <p>
+                                <Link href={{ pathname: "/disconnect" }}>Disconnect</Link>
+                            </p>
+                        </div>
                     </div>
                 </div>
-        </div>
+            </div>
         </div>
     );
 };
 
 export default Profile;
-
-
